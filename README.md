@@ -26,6 +26,11 @@
   
        pip install moviepy
 </ul>
+<ul>
+ <li>Pandas</li>
+  
+       pip install pandas
+</ul>
 
 <h2>The contents of this Project :</h2>
 <ul>
