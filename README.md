@@ -59,7 +59,7 @@
   <li>By using <b>Opencv</b> frames will extracted from <b>cut.mp4</b> and will save in the <b>frames</b> folder and <b>cut.mp4</b> will be deleted.</li>
   <li><b>cut_video_frames</b> will return a <b>dict</b> having key-value pair of frame name and its timestramp</li>
   <li>main.py call <b>detect_gender</b> function from <b>detect.py</b> that is in the <b>utils</b> folder.</li>
-  <li><b>Face detector<b> and <b>Gender Detection<b> moled will load and each frame will pass to the models to detect face and then gender.</li>
+  <li><b>Face Detector</b> and <b>Gender Detection</b> moled will load and each frame will pass to the models to detect face and then gender.</li>
   <li><b>detect_gender</b> will return a <b>dict</b> having key-value pair of frame name and its detected genders.</li>
   <li>By using the gender and timestramp dicts the output will be given in <b>genders.csv</b> in the current directory.</li>
 </ul>
