@@ -56,8 +56,10 @@
   <ul>
   <li>mian.py call <b>cut_video_frames</b> function from <b>cut_frames.py</b> that is in the <b>utils</b> folder.</li>
   <li>Given video will cut according to the given time and saved as <b>cut.mp4</b> in the current directory using <b>Moviepy</b> library.</li>
-  <li>By using <b>Opencv</b> frames will extracted from <b>cut.mp4</b> and will save in the <b>frames</b> folder and <b>cut.mp4</b> will delete.</li>
-  <li><b>Detecting Gender From Video</b> Use Command :</li>
-  
-      python main.py --video <video_path> --start_time <seconds> --end_time<seconds>
+  <li>By using <b>Opencv</b> frames will extracted from <b>cut.mp4</b> and will save in the <b>frames</b> folder and <b>cut.mp4</b> will be deleted.</li>
+  <li><b>cut_video_frames</b> will return a <b>dict</b> having key-value pair of frame name and its timestramp</li>
+  <li>main.py call <b>detect_gender</b> function from <b>detect.py</b> that is in the <b>utils</b> folder.</li>
+  <li><b>Face detector<b> and <b>Gender Detection<b> moled will load and each frame will pass to the models to detect face and then gender.</li>
+  <li><b>detect_gender</b> will return a <b>dict</b> having key-value pair of frame name and its detected genders.</li>
+  <li>By using the gender and timestramp dicts the output will be given in <b>genders.csv</b> in the current directory.</li>
 </ul>
