@@ -50,3 +50,14 @@
   
       python main.py --video <video_path> --start_time <seconds> --end_time<seconds>
 </ul>
+  
+  <h2>Workflow :</h2>
+  <p>After executing the above command the will detect gender from the video by following steps:</p>
+  <ul>
+  <li>mian.py call <b>cut_video_frames</b> function from <b>cut_frames.py</b> that is in the <b>utils</b> folder.</li>
+  <li>Given video will cut according to the given time and saved as <b>cut.mp4</b> in the current directory using <b>Moviepy</b> library.</li>
+  <li>By using <b>Opencv</b> frames will extracted from <b>cut.mp4</b> and will save in the <b>frames</b> folder and <b>cut.mp4</b> will delete.</li>
+  <li><b>Detecting Gender From Video</b> Use Command :</li>
+  
+      python main.py --video <video_path> --start_time <seconds> --end_time<seconds>
+</ul>
