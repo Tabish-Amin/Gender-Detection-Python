@@ -54,9 +54,9 @@
   <li><b>Detecting Gender From Video</b> Use Command :</li>
   
       python main.py --video <video_path> --start_time <seconds> --end_time <seconds>
-  <li><b>For Example (To run test case : )</b> Use Command :</li>
+  <li><b>For Example (To run test case on test.mp4 video from 1 Mins to 1:30 Mins )</b> Use Command :</li>
   
-      python main.py --video "test.mp4" --start_time 90 --end_time 120
+      python main.py --video "test.mp4" --start_time 60 --end_time 90
  </ul>
   
   <h2>Workflow :</h2>
