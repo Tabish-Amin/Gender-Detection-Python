@@ -59,9 +59,9 @@
       python main.py --video "testing/test.mp4" --start_time 60 --end_time 90
  </ul>
   
-  <h2>Workflow :</h2>
-  <p>After executing the above command the will detect gender from the video by following steps:</p>
-  <ul>
+ <h2>Workflow :</h2>
+ <p>After executing the above command the will detect gender from the video by following steps:</p>
+ <ul>
   <li>mian.py call <b>cut_video_frames</b> function from <b>cut_frames.py</b> that is in the <b>utils</b> folder.</li>
   <li>Given video will cut according to the given time and saved as <b>cut.mp4</b> in the current directory using <b>Moviepy</b> library.</li>
   <li>By using <b>Opencv</b> frames will extracted from <b>cut.mp4</b> and will save in the <b>frames</b> folder and <b>cut.mp4</b> will be deleted.</li>
@@ -70,4 +70,7 @@
   <li><b>Face Detector</b> and <b>Gender Detection</b> moled will load and each frame will pass to the models to detect face and then gender.</li>
   <li><b>detect_gender</b> will return a <b>dict</b> having key-value pair of frame name and its detected genders.</li>
   <li>By using the gender and timestramp dicts the output will be given in <b>genders.csv</b> in the current directory.</li>
-</ul>
+ </ul>
+  
+ <h2>Note :</h2>
+ <p>While extracting frames from video and detecting faces and genders it took time according to the given time duaration and FPS (frames per second)</p>
