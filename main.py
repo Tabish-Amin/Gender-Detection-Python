@@ -28,4 +28,4 @@ df['frame_name'] = df['frame_name'].astype(str) + '.jpg'
 
 df.to_csv('genders.csv',index = False)
 
-print("Result saved to csv names 'gender.csv' in the current dir")
+print("Result saved to csv named 'gender.csv' in the current dir")
