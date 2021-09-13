@@ -53,8 +53,11 @@
   <li>Open your Command Prompt or Terminal and change directory to the folder where all the files are present.</li>
   <li><b>Detecting Gender From Video</b> Use Command :</li>
   
-      python main.py --video <video_path> --start_time <seconds> --end_time<seconds>
-</ul>
+      python main.py --video <video_path> --start_time <seconds> --end_time <seconds>
+  <li><b>For Example (To run test case : )</b> Use Command :</li>
+  
+      python main.py --video "test.mp4" --start_time 90 --end_time 120
+ </ul>
   
   <h2>Workflow :</h2>
   <p>After executing the above command the will detect gender from the video by following steps:</p>
